@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>Test Form</title>
+<script defer src="bundle.js"></script><link href="styles.css" rel="stylesheet"></head>
+<body>
+    <form name="form1" method="POST" action="accept.php">
+    First Name: <br>
+    <input type="text" name="first name" class="input"> <br>
+    Second Name: <br>
+    <input type="text" name="seconnd name"> <br>
+    Email: <br>
+    <input type="email" name="email"> <br>
+    Phone Number: <br>
+    <input type="tel" name="phone number"> <br>
+    Country: <br>
+    <select>
+        <option disabled>Chose your country</option>
+        <option value="Russia">Russia</option>
+        <option value="China">China</option>
+        <option value="Germany">Cermany</option>
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+        <option value="Other">Other</option>
+    </select>
+    <p>Chose your gender:</p>
+    <input type="radio" name="gender" value="female" checked> Female<br>
+    <input type="radio" name="gender" value="female"> Male<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+    <br>
+    Set photo <br>
+    <input type="file" accept=".JPG, .PNG, .BMP, .GIF"><br>
+    <br>
+    Username: <br>
+    <input type="text"> <br>
+    Password: <br>
+    <input type="password"> <br>
+    <input type="checkbox" name="remember me" value="yes"> Remember me <br><br>
+    <input type="submit" name="registration" value="Registration"> <br>
+    <br>
+    <button style="font-size: 14px;">Contact with me<a href="https://vk.com/ginkgosaurus" target="_blank"></a> </button>
+    <br>
+    </form>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

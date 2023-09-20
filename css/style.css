@@ -1,0 +1,27 @@
+button {
+    background-color: tan;
+    color: darkslategray;
+    border-radius: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FFA700;
+}
+
+select{
+    background-color: antiquewhite;
+    color: darkslategray;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #BF8E30;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+option{
+    background-color: #F0F0F0;
+    color: #333;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+}
