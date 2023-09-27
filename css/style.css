@@ -1,27 +1,111 @@
-button {
-    background-color: tan;
-    color: darkslategray;
-    border-radius: 10px;
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border: 1px solid #FFA700;
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+body {
+    background: url("../img/mywall.png") no-repeat;
+    font-family: 'Merriweather', sans-serif;
+    color: #efce9d;
+    padding: 1em;
 }
 
-select{
-    background-color: antiquewhite;
-    color: darkslategray;
-    width: 200px;
+.title {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255,255,255,0.4);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 5px 5px 15px #736a5d;
+    border-radius: 15px;
+}
+
+legend {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.number {
+    background-color: #9c6c2c;
+    color: white;
     height: 30px;
-    border: 1px solid #BF8E30;
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    font-size: 16px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    text-align: center;
+    margin-right: 10px;
+    text-shadow: 0 1px 0 #736a5d;
+    border-radius: 100%;
 }
 
-option{
-    background-color: #F0F0F0;
-    color: #333;
-    font-family: "Times New Roman", serif;
+input {
+    background: #efce9d;
+    display: block;
+    border-radius: 15px;
+    border:0; outline:0;
+    padding: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+select {
+    background: #efce9d;
+    border-radius: 15px;
+    border:0; outline:0;
+    color: gray;
+    padding: 1em;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    font-family: 'Merriweather',sans-serif;
+}
+
+button{
+    width: 90%;
+    background: #9c6c2c;
+    border-radius: 15px;
+    border:0; outline:0;
+    padding: 1em;
+    font-size: 20px;
+    color: white;
+    font-family: 'Merriweather',sans-serif;
+}
+
+.button {
+    color: black;
     font-size: 14px;
+    padding: 1em;
+}
+
+
+
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; 
+}
+
+.left {
+     margin-right: 2%; 
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
 }
