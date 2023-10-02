@@ -74,8 +74,9 @@ input {
 }
 
 #remember {
-    background-color: white;
-  }
+  width: 12px;
+  margin: 0 12px 0 17px;
+}
 
 select {
   background-color: #efce9d;
@@ -92,12 +93,8 @@ select {
 
 .checkbox_form {
   font-size: 14px;
-  text-align: center;
-  position: absolute;
   display: flex;
-  width: 14px;
-  height: 14px;
-  margin: 3px 30px;
+  margin: 11px 0;
 }
 
 button{
